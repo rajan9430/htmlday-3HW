@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+
+	<body>
+		<form action="">
+			<div>
+				<span>Personal details</span>
+				<div>
+					<label for="gender">Salutation</label>
+					<br />
+					<select name="gemder" id="gender">
+						<option value="none" disabled selected>--None--</option>
+						<option value="mr">Mr.</option>
+						<option value="mrs">Mrs.</option>
+					</select>
+				</div>
+				<br />
+				<div>
+					<label for="firstname">First Name: </label>
+					<input
+						type="text"
+						name="myfirstname"
+						id="firstname"
+						placeholder="Enter Your First Name" />
+				</div>
+				<br />
+				<div>
+					<label for="lastname">Last Name: </label>
+					<input
+						type="text"
+						name="mylastname"
+						id="lastname"
+						placeholder="Enter Your Last Name" />
+				</div>
+				<br />
+				<div>
+					Gender: <input type="radio" name="gender" value="male" />Male
+					<input type="radio" name="gender" value="female" />Female
+				</div>
+				<br />
+				<div>
+					<label for="email">Email: </label>
+					<input
+						type="email"
+						name="myemail"
+						value="hellotiwari94@gmail.com"
+						id="email" />
+				</div>
+				<br />
+				<div>
+					<label for="date">Date of birth: </label>
+					<input type="date" name="mydate" value="sate" id="date" />
+				</div>
+				<br />
+				<div>
+					<label for="address">Address: </label>
+					<br />
+					<textarea
+						name="mytextarea"
+						id="address"
+						cols="30"
+						rows="5"></textarea>
+				</div>
+				<br />
+				<div>
+					<button type="submit">Submit</button>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
